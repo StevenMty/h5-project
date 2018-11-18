@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'lib-flexible' // 引入lib-flexible 手淘移动端布局 参考地址:https://www.jianshu.com/p/a0fe0604209a
 
 Vue.config.productionTip = false
 
