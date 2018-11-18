@@ -78,7 +78,7 @@ export default {
         { name: '右眼', ball: '-6.00', mirror: '-0.75', axis: '1.63', lensType: '渐进片', distance: '', otherMsg: '', remarks: '', type: 'right' },
         { name: '瞳距', ball: '', mirror: '', axis: '', lensType: '', distance: '60', otherMsg: '', remarks: '', type: 'distance' },
         { name: '其他信息', ball: '', mirror: '', axis: '', lensType: '', distance: '', otherMsg: '近视眼镜', remarks: '', type: 'other' },
-        { name: '个人备注', ball: '', mirror: '', axis: '', lensType: '', distance: '', otherMsg: '', remarks: '', type: 'remark' },
+        { name: '个人备注', ball: '', mirror: '', axis: '', lensType: '', distance: '', otherMsg: '', remarks: '', type: 'remark' }
       ],
       processingMsgs: [
         { message: '2018/20/14 14:00 镜片出库;' },
@@ -102,7 +102,7 @@ export default {
     },
     cancel () {
       this.isEditRemark = false
-    },
+    }
 
   }
 }
